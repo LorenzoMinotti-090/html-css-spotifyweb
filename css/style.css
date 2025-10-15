@@ -60,14 +60,13 @@ header {
     background-color: #000000;
     display: flex;
     align-items: center;
-    justify-content: right
+    justify-content:right
 
 }
 
 /* main sections */
 
 main {
-    flex: 1;
     background-color: #0a1733;
     color: #ffffff;
     overflow-y: auto;
@@ -85,16 +84,28 @@ main {
 
 .nav ul {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
     gap: 10px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .nav a {
     color: #ffffff;
     min-width: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+.nav a {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
 }
 
 /*footer*/
