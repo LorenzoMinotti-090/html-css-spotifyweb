@@ -8,6 +8,7 @@
 .img {
     width: 50%;
     display: block;
+    margin: auto;
 }
 
 
@@ -15,6 +16,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    color: #ffffff;
 }
 
 
@@ -52,11 +54,14 @@ body {
     overflow: hidden;
 }
 
-/* Header */
+/* header */
 header {
     height: 80px;
     background-color: #000000;
     display: flex;
+    align-items: center;
+    justify-content: right
+
 }
 
 /* main sections */
@@ -68,6 +73,7 @@ main {
     overflow-y: auto;
     padding-bottom: 50px;
 }
+
 /*navbar*/
 
 .nav {
@@ -125,9 +131,8 @@ main {
 }
 
 .button {
-    background-color:  #0a1733;
     color: #ffffff;
     padding: 10px 20px;
     display: flex;
-    
+
 }
