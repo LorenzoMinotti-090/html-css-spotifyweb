@@ -10,17 +10,6 @@
     display: block;
 }
 
-@media (max-width: 600px) {
-    .img {
-        width: 100%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .img {
-        width: 30%;
-    }
-}
 
 /*body*/
 
@@ -70,16 +59,15 @@ header {
     display: flex;
 }
 
-/* Main sections */
+/* main sections */
 
 main {
     flex: 1;
     background-color: #0a1733;
     color: #ffffff;
     overflow-y: auto;
-    padding-bottom: 50px; /* Prevents content from being hidden behind the action bar */
+    padding-bottom: 50px;
 }
-
 /*navbar*/
 
 .nav {
@@ -134,4 +122,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button {
+    background-color:  #0a1733;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    
 }
