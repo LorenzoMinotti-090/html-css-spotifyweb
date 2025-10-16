@@ -1,16 +1,6 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
 
-    .flex .col {
-        width: calc(50% - 15px);
-    }
 
-    .flex .col img {
-        max-width: 120px;
-    }
-
-    .flex {
-        gap: 15px;
-    }
 }
 
 
@@ -18,18 +8,15 @@
 
 @media screen and (min-width: 700px) {
 
-    flex .col {
-        width: calc(100% - 20px);
-    }
 
-    .flex .col img {
-        max-width: 130px;
-    }
+
+
 }
 
 
 
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
+
 
 }
