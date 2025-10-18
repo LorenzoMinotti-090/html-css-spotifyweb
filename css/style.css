@@ -38,12 +38,12 @@ body {
 
 .sidebar {
     overflow-y: hidden;
-    padding: 20px;
-    width: 100px;
+    padding: 10px 10px;
+    width: 25vw;
     background-color: #000;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
 }
 
 .sidebar ul {
@@ -85,13 +85,13 @@ header {
 }
 
 header button {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  padding: 8px 18px;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: 0.3s;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 /*navbar*/
@@ -125,12 +125,12 @@ header button {
 }
 
 section {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 section h2 {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
 }
 
 
@@ -163,7 +163,7 @@ section h2 {
 }
 
 .col img.circle {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .col span {
@@ -185,6 +185,7 @@ section h2 {
     display: flex;
 
 }
+
 /*footer*/
 
 .action-bar {
@@ -199,12 +200,13 @@ section h2 {
 }
 
 .footer-left {
- display: flex;
-  align-items: center;
-  gap: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     color: #ffffff;
     font-size: 20px;
 }
+
 .footer-left img {
 
     height: 40px;
@@ -213,15 +215,15 @@ section h2 {
 }
 
 .footer-center {
-display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
     color: #ffffff;
 
 }
 
 .footer-right {
-display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
     color: #ffffff;
 
 }
@@ -229,6 +231,6 @@ display: flex;
 
 
 .footer-left .info p {
-  font-size: 0.6rem;
-  color: #b3b3b3;
+    font-size: 0.6rem;
+    color: #b3b3b3;
 }

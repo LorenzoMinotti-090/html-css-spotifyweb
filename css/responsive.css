@@ -1,4 +1,31 @@
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
+    .sidebar {
+
+        position: relative;
+        width: 10vh;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        overflow-y: auto;
+    }
+
+
+    .sidebar img {
+        display: block;
+        margin-bottom: 10px;
+        width: 20vh;
+    }
+
+    .sidebar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sidebar li {
+        font-size: 0.70rem;
+        white-space: nowrap;
+    }
+
 
 
 }
@@ -8,7 +35,19 @@
 
 @media screen and (min-width: 700px) {
 
+    .sidebar {
+        width: 15vh;
+        padding: 24px 16px;
+    }
 
+    .sidebar img {
+        width: 40vh;
+        margin-bottom: 20px;
+    }
+
+    .sidebar li {
+        font-size: 0.90rem;
+    }
 
 
 }
@@ -16,7 +55,21 @@
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
+
+    .sidebar {
+        width: 25vh;
+        padding: 28px 20px;
+    }
+
+    .sidebar img {
+        width: 140px;
+        margin-bottom: 28px;
+    }
+
+    .sidebar li {
+        font-size: 1rem;
+    }
 
 
 }
